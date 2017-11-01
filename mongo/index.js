@@ -12,3 +12,9 @@ var PoliticianSchema = mongoose.Schema({
   name : {type : String},
   vote : {type : Number}
 });
+
+Poititcian = mongoose.model("poititcian", PoliticianSchema);
+
+
+exports.Poititcian = Poititcian;
+exports.Keys = Keys;
